@@ -1,0 +1,36 @@
+/*elememt selector*/
+body{
+    font-size: 22px;
+    border: 3px solid black;
+}
+h1,h2{
+    color: green;
+}
+p{
+    color:blue;
+}
+p span{
+    background-color: black;
+}
+
+/*class selector*/
+
+.gray{
+    color: gray;
+    font-style: italic;
+}
+
+.highlight{
+    background-color: red;
+}
+/*id selector*/
+
+#second{
+    color: aqua;
+}
+
+/* universal selector**/ /*generally we don't use it frequently**/
+*{
+    font-family: monospace;
+
+}
